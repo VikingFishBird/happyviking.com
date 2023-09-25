@@ -25,7 +25,8 @@ function HitTheRoad() {
   return (
     <span className="home-content">
       <div className='splash-img'>
-        <img className='hidden-bg' src={hittheroad_splash} alt="splash-legacy" />
+        <img className='hidden-bg' src={hittheroad_splash} 
+          alt="splash-legacy" loading="lazy"/>
 
         <div className='splash-title'>
           <h1>HIT</h1>
@@ -37,7 +38,8 @@ function HitTheRoad() {
       <div className='body3'>
         <div className='line-main'>
           <div className= 'hor-line'>
-            <img className= 'main-line-img' src={lineart1} alt="lineart1"/>
+            <img className= 'main-line-img' src={lineart1} 
+              alt="lineart1" loading="lazy"/>
           </div>
         </div>
 
@@ -59,8 +61,10 @@ function HitTheRoad() {
           </div>
 
           <div className= 'pic-parent-3'>
-            <img className= 'ss-img img-shadow' src={htr_1} alt="voronoi2"/>
-            <img className= 'ss-img img-shadow' src={htr_2} alt="llyod"/>
+            <img className= 'ss-img img-shadow' src={htr_1} 
+              alt="Hit the Road: Ramps" loading="lazy"/>
+            <img className= 'ss-img img-shadow' src={htr_2} 
+              alt="Hit the Road: Wagon" loading="lazy"/>
           </div>
 
           <div className= 'center-style'>

@@ -28,7 +28,8 @@ function Contact() {
   return (
     <span className="home-content">
       <div className='splash-img'>
-        <img className='hidden-bg' src={aboutus_splash} alt="splash-legacy" />
+        <img className='hidden-bg' src={aboutus_splash} 
+          alt="splash-legacy" loading="lazy"/>
 
         <div className='splash-title'>
           <h1>Meet The Team</h1>
@@ -38,7 +39,8 @@ function Contact() {
       <div className='body3'>
         <div className='line-main'>
           <div className= 'hor-line'>
-            <img className= 'main-line-img' src={lineart1} alt="lineart1"/>
+            <img className= 'main-line-img' src={lineart1} 
+              alt="lineart1" loading="lazy"/>
           </div>
         </div>
 
@@ -66,7 +68,8 @@ function Contact() {
 
           <div className= 'pic-parent-4'>
             <div className= 'profile-outline'>
-              <img className= 'profile-img img-shadow' src={harrison} alt="voronoi2"/>
+              <img className= 'profile-img img-shadow' src={harrison} 
+                alt="harrison" loading="lazy"/>
               <h2> Harrison </h2>
               <p1> Co-Founder and Frontend developer </p1>
               <div className= 'profile-desc'>
@@ -81,7 +84,8 @@ function Contact() {
             </div>
 
             <div className= 'profile-outline'>
-              <img className= 'profile-img img-shadow' src={bas} alt="llyod"/>
+              <img className= 'profile-img img-shadow' src={bas} 
+                alt="bas" loading="lazy"/>
               <h2> Bas </h2>
               <p1> Co-Founder and Fullstack developer </p1>
               <div className= 'profile-desc'>

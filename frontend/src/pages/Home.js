@@ -53,7 +53,8 @@ function Home() {
               </p1>
               <iframe
                 src="https://store.steampowered.com/widget/1858090/"
-                height="190">
+                height="190"
+                loading="lazy">
               </iframe>
             </div>
 
@@ -61,7 +62,8 @@ function Home() {
 
             <iframe
               width="600"  className='img-shadow'
-              src="https://www.youtube.com/embed/xTy1GrrcGRQ">
+              src="https://www.youtube.com/embed/xTy1GrrcGRQ"
+              loading="lazy">
             </iframe>
           </span>
           
@@ -74,7 +76,8 @@ function Home() {
       </div>
 
       <div className='splash-img'>
-        <img className='hidden-bg' src={bg_dark_2} alt="splash-legacy">
+        <img className='hidden-bg' src={bg_dark_2} 
+          alt="splash-legacy" loading="lazy">
 
         </img>
         <div className='dark-img' />
@@ -96,8 +99,10 @@ function Home() {
           </div>
 
           <div className= 'pic-parent'>
-            <img className= 'voronoi-img img-shadow' src={voronoi2} alt="voronoi2"/>
-            <img className= 'llyod-img img-shadow' src={llyod} alt="llyod"/>
+            <img className= 'voronoi-img img-shadow' src={voronoi2} 
+              alt="voronoi2"  loading="lazy"/>
+            <img className= 'llyod-img img-shadow' src={llyod} 
+              alt="llyod"  loading="lazy"/>
           </div>
 
         </div>
@@ -108,7 +113,8 @@ function Home() {
 
       <div className='line-main'>
         <div className= 'hor-line'>
-          <img className= 'main-line-img' src={lineart1} alt="lineart1"/>
+          <img className= 'main-line-img' src={lineart1} 
+            alt="lineart1" loading="lazy"/>
         </div>
       </div>
 
@@ -116,7 +122,8 @@ function Home() {
       </div>
 
       <div className='splash-img'>
-        <img className='hidden-bg' src={bg_dark_3} alt="splash-legacy">
+        <img className='hidden-bg' src={bg_dark_3} 
+          alt="splash-legacy" loading="lazy">
 
         </img>
         <div className='dark-img' />
@@ -140,8 +147,10 @@ function Home() {
           </div>
 
           <div className= 'pic-parent-2'>
-            <img className= 'ss-img img-shadow' src={ss4} alt="voronoi2"/>
-            <img className= 'ss-img img-shadow' src={combat2} alt="llyod"/>
+            <img className= 'ss-img img-shadow' src={ss4} 
+              alt="Large Battle" loading="lazy"/>
+            <img className= 'ss-img img-shadow' src={combat2} 
+              alt="Combat Menu" loading="lazy"/>
           </div>
 
         </div>
@@ -152,7 +161,8 @@ function Home() {
 
       <div className='line-main'>
         <div className= 'hor-line'>
-          <img className= 'main-line-img' src={lineart1} alt="lineart1"/>
+          <img className= 'main-line-img' src={lineart1} 
+          alt="lineart1" loading="lazy"/>
         </div>
       </div>
 
@@ -160,7 +170,8 @@ function Home() {
       </div>
 
       <div className='splash-img'>
-        <img className='hidden-bg' src={bg_dark_4} alt="splash-legacy">
+        <img className='hidden-bg' src={bg_dark_4} 
+          alt="splash-legacy" loading="lazy">
 
         </img>
         <div className='dark-img' />
@@ -183,8 +194,10 @@ function Home() {
           </div>
 
           <div className= 'pic-parent-3'>
-            <img className= 'ss-img img-shadow' src={ss3} alt="voronoi2"/>
-            <img className= 'ss-img img-shadow' src={ss5} alt="llyod"/>
+            <img className= 'ss-img img-shadow' src={ss3} 
+              alt="Red City" loading="lazy"/>
+            <img className= 'ss-img img-shadow' src={ss5} 
+              alt="Purple City" loading="lazy"/>
           </div>
 
         </div>
